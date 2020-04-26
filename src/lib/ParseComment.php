@@ -1,10 +1,10 @@
 <?php
-namespace oscoder\doc-php-api\lib;
+namespace oscoder\doc_php_api\lib;
 
 /**
  * 注释解析
  * Class ParseComment
- * @package oscoder\doc-php-api\lib
+ * @package oscoder\doc_php_api\lib
  */
 class ParseComment
 {

@@ -1,6 +1,6 @@
   ### 扩展安装：
 
-+ 方法一：composer命令 `composer require oscoder/doc-php-api`
++ 方法一：composer命令 `composer require oscoder/doc_php_api`
 
 + 方法二：直接下载压缩包，然后进入项目中执行 composer命令 `composer update` 来生成自动加载文件
 
@@ -26,7 +26,7 @@ $config = [
     'class'         => ['Api', 'Api2'], // 要生成文档的类
     'filter_method' => ['__construct'], // 要过滤的方法名称
 ];
-$api = new \oscoder\doc-php-api\BootstrapApiDoc($config);
+$api = new \oscoder\doc_php_api\BootstrapApiDoc($config);
 $doc = $api->getHtml();
 exit($doc);
 ```

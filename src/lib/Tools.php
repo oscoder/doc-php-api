@@ -1,11 +1,11 @@
 <?php
 
-namespace oscoder\doc-php-api\lib;
+namespace oscoder\doc_php_api\lib;
 
 /**
  * 工具类
  * Class Tools
- * @package oscoder\doc-php-api\lib
+ * @package oscoder\doc_php_api\lib
  */
 class Tools
 {
@@ -65,7 +65,7 @@ class Tools
         //下载文件需要用到的头
         header('Content-type: application/octet-stream');
         header('Accept-Ranges: bytes');
-        header('Content-Disposition: attachment; filename=doc-php-api_' . date('Y-m-d') . '.html');
+        header('Content-Disposition: attachment; filename=doc_php_api_' . date('Y-m-d') . '.html');
         echo $docHtml;
         exit();
     }

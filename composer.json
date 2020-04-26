@@ -1,6 +1,6 @@
 {
-    "name"       : "oscoder/doc-php-api",
-    "description": "doc-php-api",
+    "name"       : "oscoder/doc_php_api",
+    "description": "doc_php_api",
     "type"       : "library",
     "license"    : "Apache-2.0",
     "authors"    : [
@@ -14,7 +14,7 @@
     },
     "autoload"   : {
         "psr-4": {
-            "oscoder\\doc-php-api\\": "src"
+            "oscoder\\doc_php_api\\": "src"
         }
     }
 }

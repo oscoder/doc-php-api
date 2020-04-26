@@ -10,14 +10,14 @@
  *  ==================================================================
  */
 
-namespace oscoder\doc-php-api;
+namespace oscoder\doc_php_api;
 
-use oscoder\doc-php-api\lib\Tools;
+use oscoder\doc_php_api\lib\Tools;
 
 /**
  * BootstrapAPI文档生成
  * Class BootstrapApiDoc
- * @package oscoder\doc-php-api
+ * @package oscoder\doc_php_api
  */
 class BootstrapApiDoc extends ApiDoc
 {
