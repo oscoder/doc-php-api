@@ -1,15 +1,4 @@
 <?php
-/**
- *  ==================================================================
- *        文 件 名: BootstrapApiDoc.php
- *        概    要: BootstrapAPI文档生成
- *        作    者: IT小强
- *        创建时间: 2018/6/6 13:57
- *        修改时间:
- *        copyright (c) 2016 - 2018 mail@xqitw.cn
- *  ==================================================================
- */
-
 namespace oscoder\doc_php_api;
 
 use oscoder\doc_php_api\lib\Tools;
@@ -306,10 +295,6 @@ EXT;
             }
             $html .= '</div></li>';
         }
-        if (!isset($_GET['download']) || $_GET['download'] !== 'api_doc_php') {
-            $html .= ' <li class="nav-item"><a class="nav-link" href="?download=api_doc_php">下载文档</a></li>';
-        }
-        $html .= '</ul>';
         return $html;
     }
     
