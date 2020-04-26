@@ -1,11 +1,11 @@
 <?php
 
-namespace j9zz\apidoc\lib;
+namespace oscoder\doc-php-api\lib;
 
 /**
  * 工具类
  * Class Tools
- * @package j9zz\apidoc\lib
+ * @package oscoder\doc-php-api\lib
  */
 class Tools
 {

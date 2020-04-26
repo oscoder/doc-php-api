@@ -1,10 +1,10 @@
 <?php
-namespace j9zz\apidoc\lib;
+namespace oscoder\doc-php-api\lib;
 
 /**
  * 注释解析
  * Class ParseComment
- * @package j9zz\apidoc\lib
+ * @package oscoder\doc-php-api\lib
  */
 class ParseComment
 {

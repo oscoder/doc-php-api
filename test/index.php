@@ -7,7 +7,7 @@ $config = [
     'class'         => ['Api', 'Api2'], // 要生成文档的类
     'filter_method' => ['__construct'], // 要过滤的方法名称
 ];
-$api = new \j9zz\apidoc\BootstrapApiDoc($config);
+$api = new \oscoder\doc-php-api\BootstrapApiDoc($config);
 $doc = $api->getHtml();
 exit($doc);
 

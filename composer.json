@@ -1,12 +1,12 @@
 {
-    "name"       : "j9zz/doc-php-api",
+    "name"       : "oscoder/doc-php-api",
     "description": "doc-php-api",
     "type"       : "library",
     "license"    : "Apache-2.0",
     "authors"    : [
         {
-            "name" : "j9zz",
-            "email": "j9zz_dev@126.com"
+            "name" : "oscoder",
+            "email": "ohws@live.cn"
         }
     ],
     "require"    : {
@@ -14,7 +14,7 @@
     },
     "autoload"   : {
         "psr-4": {
-            "j9zz\\apidoc\\": "src"
+            "oscoder\\doc-php-api\\": "src"
         }
     }
 }

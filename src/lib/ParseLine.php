@@ -1,11 +1,11 @@
 <?php
 
-namespace j9zz\apidoc\lib;
+namespace oscoder\doc-php-api\lib;
 
 /**
  * 按行解析注释参数
  * Class ParseLine
- * @package j9zz\apidoc\lib
+ * @package oscoder\doc-php-api\lib
  */
 class ParseLine
 {

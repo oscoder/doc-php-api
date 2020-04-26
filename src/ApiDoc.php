@@ -10,14 +10,14 @@
  *  ==================================================================
  */
 
-namespace j9zz\apidoc;
+namespace oscoder\doc-php-api;
 
-use j9zz\apidoc\lib\ParseComment;
+use oscoder\doc-php-api\lib\ParseComment;
 
 /**
  * ApiDoc生成
  * Class ApiDoc
- * @package j9zz\apidoc
+ * @package oscoder\doc-php-api
  */
 class ApiDoc
 {
@@ -75,7 +75,7 @@ class ApiDoc
     
     /**
      * 获取类的注释
-     * @param $class - 类名称(存在命名空间时要完整写入) eg: $class = 'j9zz\\apidoc\\ApiDoc';
+     * @param $class - 类名称(存在命名空间时要完整写入) eg: $class = 'oscoder\\doc-php-api\\ApiDoc';
      * @return array - 返回格式为数组（未获取到注释时返回空数组）
      */
     private function _getClassComment($class) {
@@ -91,7 +91,7 @@ class ApiDoc
     
     /**
      * 获取指定类下方法的注释
-     * @param $class - 类名称(存在命名空间时要完整写入) eg: $class = 'j9zz\\apidoc\\ApiDoc';
+     * @param $class - 类名称(存在命名空间时要完整写入) eg: $class = 'oscoder\\doc-php-api\\ApiDoc';
      * @param int $type - 方法过滤，默认只获取 public类型 方法
      * ReflectionMethod::IS_STATIC
      * ReflectionMethod::IS_PUBLIC
