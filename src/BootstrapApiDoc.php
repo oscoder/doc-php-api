@@ -126,7 +126,7 @@ class BootstrapApiDoc extends ApiDoc
                 </div>
              <div class="row">
                     <div class="col-lg-12 text-center copyright-content">
-                        Copyright  2016 - 2018 <a href="http://www.xqitw.cn">小强IT屋</a> 版权所有
+                        &copy;2020<a href="http://www.j9zz.com">酱酒智造</a> 版权所有
                     </div>
                 </div>
         </div>
